@@ -1,0 +1,57 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "42 is not a prime number\n"
+    }
+   ],
+   "source": [
+    "\n",
+    "\n",
+    "primenum = int(input(\"please enter a number  :\"))\n",
+    "\n",
+    "\n",
+    "if primenum > 3:\n",
+    "    if (primenum == 4) and (primenum % 4 == 0):\n",
+    "        print(primenum, \"is not a prime number\")\n",
+    "    elif (primenum % 2 == 0) or (primenum % 3 == 0) or ((primenum != 5) and             (primenum % 5 == 0)):\n",
+    "        print(primenum, \"is not a prime number\")\n",
+    "    else:\n",
+    "        print(primenum, \"is a prime number\")\n",
+    "    \n",
+    "    \n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.2-final"
+  },
+  "orig_nbformat": 2,
+  "kernelspec": {
+   "name": "python38232bit97a43db1331743a9a54a8aeaec848048",
+   "display_name": "Python 3.8.2 32-bit"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
